@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>forms</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+        <table id="table" border="1" >
+            <tr>
+                <td colspan="3" ><h3>Simple HTML Contact Form</h3>
+                </td>
+            </tr>
+            <tr>
+                <td> Name </td>
+                <td colspan="2"><input type="text" name="txtname" id="name"></td>
+
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td colspan="2"><input type="password" name="pwtpassword" id="passwd"> </td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td colspan="2"><input type="tel" placeholder="Please enter number only" name="telphonenumber" id="phone"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td ><input type="radio" name="rdogender" id="gender">Male</td>
+                <td><input type="radio" name="rdogender" id="gender">Female</td>
+            </tr>
+            <tr>
+                <td>Preference</td>
+                <td><input type="checkbox" name="ckkmorning" id="morning">Morning</td>
+                <td><input type="checkbox" name="chkevng" id="evening">Evening</td>
+            </tr>
+            <tr>
+                <td>Service</td>
+                <td colspan="2">
+                    <select name="cmbservice" id="service" >
+                        <option>-- Select Group --</option>
+                        <option>Service 1</option>
+                        <option>Service 2</option>
+                        <option>Service 3</option>
+                        <option>Service 4</option>
+
+                    </select>
+                
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                
+                <td colspan="2"><input type="date" placeholder="dd-mm-yyyy" name="dtedate" id="dob"></td>
+            </tr>
+            <tr>
+                <td>Website</td>
+                <td colspan="2"><input type="url" name="urlweb" id="web"></td>
+            </tr>
+            <tr>
+                <td>Upload file</td>
+                <td colspan="2"><input type="file" aria-placeholder="Choose file" name="flupload" id="file"> No file choosen</td>
+            </tr>
+            <tr>
+                <td></td>
+
+                <td><input type="button" value="Reset"></td>
+                <td><input type="submit" value="Submit"></td>
+
+        </table>
+    </body>
+</html>

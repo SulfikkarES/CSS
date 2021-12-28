@@ -1,0 +1,19 @@
+.tble{
+    background-color:aqua;
+}
+.circular{
+    padding-left: 5px;
+    padding-top: 25px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.tbl{
+height: 100%;
+}
+#name{
+    color: black;
+}
+#para{
+    padding-left: 50px;
+}

@@ -1,0 +1,25 @@
+#table{
+    width: 60%;
+    align-items: center;
+}
+#name{
+    width: 100%;
+}
+#passwd{
+    width: 100%;
+}
+#phone{
+    width: 100%;
+}
+#dob{
+    width: 100%;
+}
+#service{
+    width: 100%;
+}
+#web{
+    width: 100%;
+}
+#file{
+    width: 100%;
+}
